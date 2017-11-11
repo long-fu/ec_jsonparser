@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424CE661F9D9FBE006DA443 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 0424CE651F9D9FBE006DA443 /* test.c */; };
+		0424CE691F9D9FD1006DA443 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 0424CE671F9D9FD1006DA443 /* cJSON.c */; };
 		048659D91F9746F500EB63BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 048659D81F9746F500EB63BE /* main.c */; };
 		048659E81F97472E00EB63BE /* jsontree.c in Sources */ = {isa = PBXBuildFile; fileRef = 048659E61F97472E00EB63BE /* jsontree.c */; };
 		048659E91F97472E00EB63BE /* jsonparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 048659E71F97472E00EB63BE /* jsonparse.c */; };
@@ -26,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0424CE651F9D9FBE006DA443 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		0424CE671F9D9FD1006DA443 /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		0424CE681F9D9FD1006DA443 /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
 		048659D51F9746F500EB63BE /* ec_jsonparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ec_jsonparser; sourceTree = BUILT_PRODUCTS_DIR; };
 		048659D81F9746F500EB63BE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		048659E31F97472000EB63BE /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
@@ -68,8 +73,11 @@
 			children = (
 				048659D81F9746F500EB63BE /* main.c */,
 				048659E31F97472000EB63BE /* json.h */,
+				0424CE671F9D9FD1006DA443 /* cJSON.c */,
+				0424CE681F9D9FD1006DA443 /* cJSON.h */,
 				048659E41F97472000EB63BE /* jsonparse.h */,
 				048659EA1F97473900EB63BE /* test_parse.cpp */,
+				0424CE651F9D9FBE006DA443 /* test.c */,
 				048659E71F97472E00EB63BE /* jsonparse.c */,
 				048659E61F97472E00EB63BE /* jsontree.c */,
 				048659E51F97472100EB63BE /* jsontree.h */,
@@ -134,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0424CE661F9D9FBE006DA443 /* test.c in Sources */,
 				048659E91F97472E00EB63BE /* jsonparse.c in Sources */,
 				048659EB1F97473A00EB63BE /* test_parse.cpp in Sources */,
+				0424CE691F9D9FD1006DA443 /* cJSON.c in Sources */,
 				048659D91F9746F500EB63BE /* main.c in Sources */,
 				048659E81F97472E00EB63BE /* jsontree.c in Sources */,
 			);
